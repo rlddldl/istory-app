@@ -11,7 +11,7 @@ on:
     branches: ["main"]
     paths:
       - 'xinfra/ec2-scaling/**'
-      - '.github/workflows/ec2-scaling-deploy.yml'
+      - '.github/workflows/istory-ec2-scaling.yml'
       - 'scripts/**'
       - 'appspec.yml'
 jobs:
