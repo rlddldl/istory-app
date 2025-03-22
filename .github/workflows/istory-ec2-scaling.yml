@@ -1,5 +1,5 @@
 #5
-name: istory ci/cd dev pipeline
+name: istory ci/cd prod pipeline
 
 permissions:
   contents: read
@@ -8,7 +8,7 @@ permissions:
 
 on:
   push:
-    branches: [ "test"]
+    branches: ["main"]
     paths:
       - 'xinfra/ec2-scaling/**'
       - '.github/workflows/ec2-scaling-deploy.yml'
