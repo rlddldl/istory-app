@@ -2,4 +2,7 @@
 .terraform.lock.hcl
 .terraform.tfstate
 .terraform.tfstate.backup
-create-secret.sh
+create-secret-dev.sh
+create-secret-prod.sh
+terraform.tfstate
+terraform.tfstate.backup
